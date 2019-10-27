@@ -5,7 +5,9 @@ class ArmstrongExample{
     temp=n;  
     while(n>0)  
     {  
-    //add the code
+    a=n%10;  
+    n=n/10;  
+    c=c+(a*a*a);//logic updated
     }  
     if(temp==c)  
     System.out.println("armstrong number");   
